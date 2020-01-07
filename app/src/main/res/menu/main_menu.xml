@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:title="Qidirish"
+        android:id="@+id/menu_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        app:showAsAction="always"/>
+    <item
+        android:title="Mening profilim"
+        android:id="@+id/profile_settings"
+        app:showAsAction="never"/>
+    <item
+        android:title="Do'stlarim"
+        android:id="@+id/all_friends"
+        app:showAsAction="never"/>
+    <item
+        android:title="Dasturchi haqida"
+        android:id="@+id/about_app"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="Dasturdan chiqish"
+        android:id="@+id/main_logout"
+        app:showAsAction="never"
+        />
+</menu>
